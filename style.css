@@ -3,19 +3,30 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
-    font-weight: bold ;
+    font-size: 48px;
+    font-weight: bold;
 }
 h2{
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 38px;
+    font-weight: bold;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+h4{
+    font-size: 18px;
+}
+.title-name{
+    font-size: 24px;
 }
 .name-color{
     color: #FFAA2D;
 }
-section{
+.flexible-container{
     display: flex;
     padding-bottom: 100px;
+    padding-left: 40px;
 }
 .bg1{
     background-image: url(images/top-banner.png);
@@ -27,12 +38,37 @@ section{
     background-position: right;
 }
 .half-width{
+    width: 70%;
+    padding-left: 60px;
+}
+.bg-image{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-shadow{
     width: 50%;
-    padding-left: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 50px gray;
+}
+#full-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(#FFCB1B, #FF9E36);
+    border-image-slice: 1;
+}
+#small-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 .half-width img{
-    width: 80%;
-    padding-left: 70px;
+    width: 70%;
+    padding-left: 50px;
     padding-top: 10px;
 }
 .button-style{
@@ -42,4 +78,8 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
+}
+footer p{
+    text-align: center;
+    font-weight: 500;
 }
